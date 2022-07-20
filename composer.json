@@ -1,0 +1,19 @@
+{
+    "name": "growthops/ext-php",
+    "description": "This package includes various utility functions for php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Growthops\\ExtPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Swanepoel",
+            "email": "daniel.swanepoel@growthops.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
