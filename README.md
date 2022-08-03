@@ -3,7 +3,8 @@
 ## This package includes various utility functions for php.
 
 &nbsp;
-
+# **Functions**
+&nbsp;
 ## Function: `isNull()`
 This function returns the value from the built-in php function `is_null()`
 ```
@@ -47,5 +48,28 @@ if (! function_exists('randomElements')) {
 
         return $randomElements;
     }
+}
+```
+&nbsp;
+# **Traits**
+
+## Trait: `Composable`
+This trait allows the model to be instantiated if it does not exist. It also allows the model to be saved and returned in a single method.
+```
+public static function compose(?self $model = null): self
+{
+    if (notNull($model)) {
+        return $model;
+    }
+
+    return new self();
+}
+```
+```
+public function commit(): self
+{
+    $this->save();
+
+    return $this;
 }
 ```
