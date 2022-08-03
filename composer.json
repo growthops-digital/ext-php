@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Growthops\\ExtPhp\\": "src/"
+            "Growthops\\": "src/"
         }
     },
     "authors": [
