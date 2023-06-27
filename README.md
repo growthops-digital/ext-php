@@ -3,6 +3,21 @@
 ## This package includes various utility functions for php.
 
 &nbsp;
+
+# **Installation**
+
+**Step 1**: 
+
+`composer require growthops/ext-php`
+
+**Step 2**: 
+
+Register the service provider in your `config/app.php` file.
+
+`Growthops\Providers\GrowthopsServiceProvider::class`
+
+
+&nbsp;
 # **Functions**
 &nbsp;
 ## Function: `isNull()`
