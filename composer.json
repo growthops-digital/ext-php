@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Growthops\\": "src/"
-        }
+        },
+        "files": [
+            "src/autoload.php"
+        ]
     },
     "authors": [
         {
